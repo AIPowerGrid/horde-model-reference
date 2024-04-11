@@ -59,8 +59,8 @@ if os.getenv("HORDE_MODEL_REFERENCE_MAKE_FOLDERS"):
     logger.info(f"BASE_PATH: {BASE_PATH}")
     make_all_model_reference_folders()
 
-GITHUB_REPO_OWNER = "Haidra-Org"
-GITHUB_REPO_NAME = "AI-Horde-image-model-reference"
+GITHUB_REPO_OWNER = "AIPowerGrid"
+GITHUB_REPO_NAME = "grid-image-model-reference"
 GITHUB_REPO_BRANCH = "main"
 
 _github_repo_owner = os.getenv("HORDE_MODEL_REFERENCE_GITHUB_OWNER")
