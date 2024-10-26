@@ -25,7 +25,7 @@ dynamic=["version", "dependencies"]
 dependencies = {file = ["requirements.txt"]}
 
 [project.urls]
-"Homepage" = "https://github.com/Haidra-Org/horde-model-reference"
+"Homepage" = "https://github.com/AIPowerGrid/horde-model-reference"
 
 [project.scripts]
 validate-sd-models = "horde_model_reference.legacy.validate_sd:main"
